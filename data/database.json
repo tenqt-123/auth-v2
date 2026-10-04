@@ -1,0 +1,57 @@
+﻿{
+    "adminKey":  "thai",
+    "admins":  [
+                   {
+                       "id":  "admin_01",
+                       "username":  "admin",
+                       "password":  "thai",
+                       "email":  "admin@vietauth.vn",
+                       "role":  "SUPER_ADMIN",
+                       "plan":  "ENTERPRISE",
+                       "createdAt":  "2026-09-01T00:00:00Z"
+                   }
+               ],
+    "apps":  [
+                 {
+                     "id":  "app_viet_default_01",
+                     "name":  "Tool VIP Pro 2026",
+                     "appId":  "app_pk_viet_9a8b7c6d5e4f",
+                     "secretKey":  "sk_live_viet_849203847291039482",
+                     "version":  "1.0.0",
+                     "platform":  "C# (.NET / WinForms)",
+                     "description":  "Ứng dụng mặc định sẵn có của hệ thống (Lưu sẵn cố định)",
+                     "status":  "ACTIVE",
+                     "isPreset":  true,
+                     "isPersistent":  true,
+                     "createdAt":  "2026-01-01T00:00:00Z",
+                     "usersCount":  0,
+                     "licensesCount":  0
+                 }
+             ],
+    "licenses":  [
+
+                 ],
+    "users":  [
+
+              ],
+    "variables":  [
+
+                  ],
+    "logs":  [
+
+             ],
+    "devices":  [
+                    {
+                        "id":  "dev_d56ce913",
+                        "hwid":  "UNKNOWN_HWID",
+                        "ip":  "::1",
+                        "appId":  "app_viet_default_01",
+                        "appName":  "Tool VIP Pro 2026",
+                        "licenseKey":  "",
+                        "username":  "Client Init",
+                        "status":  "ONLINE",
+                        "firstConnected":  "2026-10-04T11:57:45Z",
+                        "lastSeen":  "2026-10-04T11:57:45Z"
+                    }
+                ]
+}
